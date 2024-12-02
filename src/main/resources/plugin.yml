@@ -5,3 +5,8 @@ api-version: '1.21'
 authors: [SimonDE2107]
 description: Ein Minispiel, bei dem Teams gegeneinander antreten
 website: https://github.com/SimonDE2107-DEV/Cookies/
+
+commands:
+  set:
+  start:
+  stats:

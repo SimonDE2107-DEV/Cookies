@@ -38,7 +38,7 @@ public class LobbyPreventionListener implements Listener {
 
     @EventHandler
     public void onFoodLevelChange(FoodLevelChangeEvent event) {
-        event.setCancelled(GameState.isLobby());
+        event.setCancelled(true);
     }
 
     @EventHandler
