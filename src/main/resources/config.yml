@@ -1,0 +1,71 @@
+database:
+  host: "localhost"
+  port: "3306"
+  database: "CookiesDB"
+  user: "CookiesUSER"
+  password: ""
+
+settings:
+  lobby_tp_height: 0
+  map_name: Waldlandschaft
+
+permissions:
+  set: "cookies.set"
+  start: "cookies.start"
+  start_force: "cookies.start.force"
+  stats_others: "cookies.stats.others"
+
+items:
+  # LOBBY ITEMs
+  team_selector:
+    name: "&8» &6&lT&eeamauswahl"
+    slot: 1
+  back_to_lobby:
+    name: "&8» &4&lZ&curück zur Lobby"
+    material: "BARRIER"
+    slot: 7
+  start:
+    name: "&8» &2&lT&aimer verkürzen"
+    material: "EMERALD"
+    slot: 4
+  # GAME ITEMS
+  default_pickaxe:
+    name: "&8» &2&lS&apitzhacke"
+    material: "IRON_PICKAXE"
+  cookie_plant:
+    name: "&8» &d&lC&5ookie-Pflanze"
+    material: "ROSE_BUSH"
+  cookie_tree:
+    name: "&8» &2&lC&aookie-Baum"
+    material: "OAK_SAPLING"
+  cookie_furnace:
+    name: "&8» &4&lC&cookie-Ofen"
+    material: "FURNACE"
+  sword:
+    name: "&8» &1&lS§9chwert"
+    material: STONE_SWORD
+  bow:
+    name: "&8» &4&lB&cogen"
+    material: STONE_SWORD
+  arrows:
+    name: "&8» &b&lP&3feile"
+    material: STONE_SWORD
+  tool-1:
+    name: "&8» &2&lS&apitzhacke"
+    material: IRON_PICKAXE
+  tool-2:
+    name: "&8» &2&lS&apitzhacken"
+    material: IRON_PICKAXE
+  tool-3:
+    name: "&8» &2&lS&apitzhacken"
+    material: IRON_PICKAXE
+  # SHOP CATEGORIY ITEMs
+  machines:
+    name: "&8» &4&lM&caschinen"
+    material: BEACON
+  fight:
+    name: "&8» &1&lK&9ampf"
+    material: STONE_SWORD
+  tools:
+    name: "&8» &2&lS&apitzhacken"
+    material: IRON_PICKAXE
